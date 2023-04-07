@@ -1,0 +1,629 @@
+@font-face {
+  font-family: "IBM Plex Sans Condensed";
+  src: url("../fonts/IBMPlexSansCond-Regular.eot");
+  src: url("../fonts/IBMPlexSansCond-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/IBMPlexSansCond-Regular.woff2") format("woff2"), url("../fonts/IBMPlexSansCond-Regular.woff") format("woff"), url("../fonts/IBMPlexSansCond-Regular.ttf") format("truetype"), url("../fonts/IBMPlexSansCond-Regular.svg#IBMPlexSansCond-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "IBM Plex Sans Condensed";
+  src: url("../fonts/IBMPlexSansCond-SemiBold.eot");
+  src: url("../fonts/IBMPlexSansCond-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/IBMPlexSansCond-SemiBold.woff2") format("woff2"), url("../fonts/IBMPlexSansCond-SemiBold.woff") format("woff"), url("../fonts/IBMPlexSansCond-SemiBold.ttf") format("truetype"), url("../fonts/IBMPlexSansCond-SemiBold.svg#IBMPlexSansCond-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-22 {
+  font-size: 22px;
+}
+
+.fs-30 {
+  font-size: 30px;
+}
+
+.fs-32 {
+  font-size: 32px;
+}
+
+.fs-36 {
+  font-size: 36px;
+}
+
+.fs-80 {
+  font-size: 80px;
+}
+
+.lh-22 {
+  line-height: 22px;
+}
+
+.lh-30 {
+  line-height: 30px;
+}
+
+.lh-34 {
+  line-height: 34px;
+}
+
+.lh-40 {
+  line-height: 40px;
+}
+
+.lh-42 {
+  line-height: 42px;
+}
+
+.lh-50 {
+  line-height: 50px;
+}
+
+.lh-90 {
+  line-height: 90px;
+}
+
+.cl1 {
+  color: #F2655A;
+}
+
+.cl2 {
+  color: #fff;
+}
+
+body {
+  font-family: "IBM Plex Sans Condensed", Arial;
+  background: #263A50;
+  overflow: hidden;
+}
+
+#header_site {
+  background: #263A50;
+  font-size: 14px;
+}
+#header_site .logo_site {
+  padding: 11px 0;
+}
+#header_site .menu_site {
+  display: flex;
+  list-style: none;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+  padding-left: 0;
+  justify-content: end;
+  margin-bottom: 0;
+}
+#header_site .menu_site li .menu .main {
+  padding-left: 48px;
+  position: relative;
+  color: #fff;
+  margin-left: 20%;
+  margin-top: 20%;
+}
+#header_site .menu_site li .menu .main::before {
+  position: absolute;
+  content: "";
+  width: 36px;
+  height: 1.5px;
+  background: #fff;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f3397d",endColorstr="#ff9153",GradientType=1);
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+#header_site .menu_site li a {
+  color: #fff;
+  font-size: 14px;
+  display: block;
+  padding: 8px 12px;
+  font-weight: 500;
+}
+#header_site .menu_site li a:link {
+  text-decoration: none;
+}
+#header_site .menu_site li a:visited {
+  text-decoration: none;
+}
+#header_site .menu_site li a:hover {
+  text-decoration: underline;
+}
+#header_site .menu_site li a:active {
+  text-decoration: underline;
+}
+#header_site .language {
+  margin-left: 50%;
+}
+
+#fullpage .section {
+  display: table;
+  height: 100vh;
+}
+#fullpage .section .banner_site::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 150%;
+  background: linear-gradient(0deg, #263A50 20.09%, rgba(38, 58, 80, 0) 94.19%);
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  transform: translate(0, 180px);
+}
+#fullpage .section .banner_site video {
+  width: 100%;
+  position: absolute;
+  background-size: cover;
+}
+#fullpage .section .banner_site .banner {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 11;
+}
+#fullpage .section .banner_site .banner .title h1 {
+  color: #fff;
+  width: 89%;
+}
+#fullpage .section .banner_site .banner .title a {
+  display: flex;
+  gap: 1rem;
+}
+#fullpage .section .banner_site .banner .title a h3 {
+  color: #fff;
+  text-decoration: underline;
+  top: 0;
+  transform: translate(0%, 25%);
+}
+#fullpage .section .banner_site .banner h2 {
+  color: #fff;
+  width: 90%;
+  z-index: 1;
+}
+#fullpage #section-2 {
+  z-index: 11;
+  display: table;
+  height: 100vh;
+}
+#fullpage #section-2 .location_site .map video {
+  height: 80vh;
+  margin-top: 12vh;
+}
+#fullpage #section-2 .location_site .map-text {
+  padding: 12vh 0;
+}
+#fullpage #section-2 .location_site .map-text h2 {
+  color: #F2655A;
+}
+#fullpage #section-2 .location_site .map-text h3 {
+  color: #fff;
+  padding: 15px 0;
+}
+#fullpage #section-2 .location_site .map-text p {
+  color: #fff;
+}
+#fullpage #section-2 .location_site figure {
+  width: 65%;
+  position: relative;
+}
+#fullpage #section-2 .location_site figure .img-fluid {
+  width: 100%;
+  height: auto;
+}
+#fullpage #section-2 .location_site figure .logo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(50%, -50%);
+}
+#fullpage #section-3 .overview_site::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 50%;
+  background: #263A50;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  transform: translate(0, 180px);
+}
+#fullpage #section-3 .overview_site .slider .slide_picture .item img {
+  position: fixed;
+  width: 100%;
+}
+#fullpage #section-3 .overview_site .slider .text {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  top: 25%;
+}
+#fullpage #section-3 .overview_site .slider .text h2 {
+  color: #F2655A;
+}
+#fullpage #section-3 .overview_site .slider .text h3 {
+  color: #fff;
+}
+#fullpage #section-3 .overview_site .content {
+  gap: 20px;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+}
+#fullpage #section-3 .overview_site .content p {
+  color: #fff;
+  padding-left: 17%;
+}
+#fullpage #section-3 .overview_site .content .small figure {
+  position: relative;
+}
+#fullpage #section-3 .overview_site .content .small figure img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  transform: translate(-25%, -25%);
+}
+#fullpage #section-4 .introduce_site .picture {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+#fullpage #section-4 .introduce_site .picture img {
+  padding-top: 20%;
+}
+#fullpage #section-4 .introduce_site .picture .logo {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  transform: translate(-50%, -25%);
+}
+#fullpage #section-4 .introduce_site .content {
+  position: absolute;
+  z-index: 1;
+  top: 20%;
+  left: 50%;
+}
+#fullpage #section-4 .introduce_site .content .content1 h2 {
+  color: #F2655A;
+}
+#fullpage #section-4 .introduce_site .content .content1 h3 {
+  color: #fff;
+}
+#fullpage #section-4 .introduce_site .content .content2 p {
+  color: #fff;
+  padding: 45px 10px;
+}
+#fullpage #section-4 .introduce_site .content .content3 .table td {
+  color: #fff;
+}
+#fullpage #section-4 .introduce_site .content .content3 .table tr {
+  color: #fff;
+}
+#fullpage #section-5 .villa_site .villa_picture img {
+  position: absolute;
+  top: 10%;
+  right: 0;
+  height: 80vh;
+  transform: translate(-10%, 0%);
+}
+#fullpage #section-5 .villa_site .menu {
+  margin-top: 7%;
+  margin-left: 5%;
+}
+#fullpage #section-5 .villa_site .menu .menuvilla {
+  position: absolute;
+  border: 1px solid white;
+  cursor: pointer;
+  padding-top: 2%;
+}
+#fullpage #section-5 .villa_site .menu .menuvilla .selection {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+  padding: 40px 0;
+  text-align: center;
+}
+#fullpage #section-5 .villa_site .menu .menuvilla .selection .selection-info h3 {
+  padding-bottom: 90%;
+}
+#fullpage #section-6 .convinient_site {
+  margin-top: 8vh;
+}
+#fullpage #section-6 .convinient_site .picture .img-fluid {
+  max-width: 100%;
+  height: 100%;
+}
+#fullpage #section-6 .menu-list .list {
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 1rem;
+}
+#fullpage #section-6 .menu-list .list .listmenu {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+#fullpage #section-6 .menu-list .list .listmenu li {
+  flex: 0 0 50%;
+  width: 50%;
+  display: flex;
+  padding-top: 0;
+}
+#fullpage #section-6 .menu-list .list .listmenu li .num {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+  position: relative;
+  margin: auto 0;
+  font-size: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#fullpage #section-6 .menu-list .list .listmenu li .num::before {
+  position: absolute;
+  content: "";
+  width: 14px;
+  height: 14px;
+  background: #263A50;
+  transform: translate(-50%, -50%) rotate(45deg);
+  top: 50%;
+  left: 50%;
+}
+#fullpage #section-6 .menu-list .list .listmenu li .num .center {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+}
+#fullpage #section-6 .menu-list .list .listmenu li a {
+  text-decoration: none;
+}
+#fullpage #section-6 .menu-list .list .listmenu li a:link {
+  text-decoration: none;
+}
+#fullpage #section-6 .menu-list .list .listmenu li a:visited {
+  text-decoration: none;
+}
+#fullpage #section-6 .menu-list .list .listmenu li a:hover {
+  text-decoration: underline;
+  color: #F2655A;
+}
+#fullpage #section-6 .menu-list .list .listmenu li a:active {
+  text-decoration: underline;
+}
+#fullpage #section-6 .menu-list .list .listmenu li p {
+  margin: auto 10px;
+  color: #fff;
+}
+#fullpage #section-6 .menu-list .twopicture {
+  position: relative;
+}
+#fullpage #section-6 .menu-list .twopicture .after {
+  position: absolute;
+  top: -23px;
+  right: -10px;
+}
+#fullpage #section-6 .menu-list .twopicture .before {
+  position: absolute;
+  top: -23px;
+  left: 0;
+}
+#fullpage #section-7 {
+  height: 100vh;
+}
+#fullpage #section-7 .infor_site {
+  margin-top: 4%;
+}
+#fullpage #section-7 .infor_site .right {
+  position: relative;
+}
+#fullpage #section-7 .infor_site .right::before {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 95%;
+  background: #fff;
+  right: -0.75rem;
+  top: 6rem;
+}
+#fullpage #section-7 .infor_site .right .title {
+  position: relative;
+}
+#fullpage #section-7 .infor_site .right .title::before {
+  position: absolute;
+  content: "";
+  background: white;
+  height: 1px;
+  bottom: -45%;
+  width: 50vw;
+  right: -0.75rem;
+}
+#fullpage #section-7 .infor_site .right .info .region {
+  margin-top: 10%;
+  position: relative;
+}
+#fullpage #section-7 .infor_site .right .info .region::before {
+  position: absolute;
+  content: "";
+  background: white;
+  height: 1px;
+  bottom: -90%;
+  width: 50vw;
+  right: -0.75rem;
+}
+#fullpage #section-7 .infor_site .right .info .region .nav {
+  display: flex;
+  gap: 4rem;
+}
+#fullpage #section-7 .infor_site .right .info .region .nav-tabs {
+  border-bottom: #F2655A;
+}
+#fullpage #section-7 .infor_site .right .info .region .nav-tabs .nav-link {
+  color: #F2655A;
+  border-radius: 20px;
+  background-color: #263A50;
+  border: 1px solid #F2655A;
+}
+#fullpage #section-7 .infor_site .moreinfo {
+  display: flex;
+  gap: 5rem;
+  margin-top: 30%;
+  position: relative;
+}
+#fullpage #section-7 .infor_site .moreinfo .cenbsm {
+  display: flex;
+  flex-direction: column;
+  gap: 1 rem;
+  text-align: center;
+}
+#fullpage #section-7 .infor_site .moreinfo .cenbsm img {
+  width: 100%;
+  height: auto;
+}
+#fullpage #section-7 .infor_site .moreinfo .era {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+}
+#fullpage #section-7 .infor_site .moreinfo .era img {
+  width: 50%;
+  height: auto;
+}
+#fullpage #section-7 .infor_site .title1 {
+  position: relative;
+}
+#fullpage #section-7 .infor_site .title1::before {
+  position: absolute;
+  content: "";
+  background: white;
+  height: 1px;
+  bottom: -45%;
+  width: 50vw;
+  left: -0.75rem;
+}
+#fullpage #section-7 .infor_site .iff {
+  position: relative;
+}
+#fullpage #section-7 .infor_site .iff::before {
+  position: absolute;
+  content: "";
+  background: white;
+  height: 1px;
+  bottom: -30%;
+  width: 50vw;
+  left: -0.75rem;
+}
+#fullpage #section-7 .infor_site .iff .logoiff {
+  padding: 10% 0 3% 0;
+}
+#fullpage #section-7 .infor_site .logo-above {
+  display: flex;
+  justify-content: center;
+  padding-top: 6%;
+}
+#fullpage #section-7 .infor_site .logo-above .logo {
+  flex: 0 0 auto;
+  width: 33.33333333%;
+  text-align: center;
+}
+#fullpage #section-7 .infor_site .logo-below {
+  display: flex;
+  justify-content: center;
+  padding-top: 10%;
+}
+#fullpage #section-7 .infor_site .logo-below .logo {
+  flex: 0 0 auto;
+  width: 33.3333%;
+  text-align: center;
+}
+#fullpage #section-7 .infor_site hr {
+  margin-top: 1%;
+  opacity: 1;
+  color: #fff;
+}
+#fullpage #section-8 {
+  background: url("../images/LeMeridien_background.png");
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+#fullpage #section-8 .Form-site {
+  padding: 0 12%;
+}
+#fullpage #section-8 .Form-site .row {
+  padding: 0 5%;
+}
+#fullpage #section-8 .Form-site .row input {
+  border-radius: 12px;
+  border: 0.5px solid #000;
+}
+#fullpage #section-8 .Form-site .row select {
+  border-radius: 12px;
+  border: 0.5px solid #000;
+}
+#fullpage #section-8 .Form-site .submit {
+  padding-left: 40%;
+}
+#fullpage #section-8 .Form-site .submit .row img {
+  height: 50px;
+}
+#fullpage #footer {
+  height: 30vh;
+}
+#fullpage #footer .logofooter {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+}
+#fullpage #footer .logofooter img {
+  width: 430px;
+  padding: 24px 0;
+}
+#fullpage #footer .information {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 0 0 auto;
+  width: 33.3333%;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 15px;
+}
+#fullpage #footer .information img {
+  height: auto;
+}
+#fullpage #footer .information p {
+  color: #fff;
+}
+#fullpage #footer .information span {
+  color: #fff;
+}
+#fullpage #footer .copyright {
+  overflow: hidden;
+  height: 3vh;
+  background: #F2655A;
+}
+#fullpage #footer .copyright p {
+  padding: 0% 35%;
+  color: #263A50;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'IBM Plex Sans Condensed';
+    src: url('../fonts/IBMPlexSansCond-Regular.eot');
+    src: url('../fonts/IBMPlexSansCond-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/IBMPlexSansCond-Regular.woff2') format('woff2'),
+        url('../fonts/IBMPlexSansCond-Regular.woff') format('woff'),
+        url('../fonts/IBMPlexSansCond-Regular.ttf') format('truetype'),
+        url('../fonts/IBMPlexSansCond-Regular.svg#IBMPlexSansCond-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'IBM Plex Sans Condensed';
+    src: url('../fonts/IBMPlexSansCond-SemiBold.eot');
+    src: url('../fonts/IBMPlexSansCond-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/IBMPlexSansCond-SemiBold.woff2') format('woff2'),
+        url('../fonts/IBMPlexSansCond-SemiBold.woff') format('woff'),
+        url('../fonts/IBMPlexSansCond-SemiBold.ttf') format('truetype'),
+        url('../fonts/IBMPlexSansCond-SemiBold.svg#IBMPlexSansCond-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+font-display: swap;
+}
+$fontFamaily:'IBM Plex Sans Condensed' , Arial;   
+
+.fs-14{
+    font-size: 14px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fs-22{
+    font-size: 22px;
+}
+.fs-30{
+    font-size: 30px;
+}
+.fs-32{
+    font-size: 32px;
+}
+.fs-36{
+    font-size: 36px;
+}
+.fs-80{
+    font-size: 80px;
+}
+
+
+.lh-22{
+    line-height: 22px;
+}
+.lh-30{
+    line-height: 30px;
+}
+.lh-34{
+    line-height: 34px;
+}
+.lh-40{
+    line-height: 40px;
+}
+.lh-42{
+    line-height: 42px;
+}
+.lh-50{
+    line-height: 50px;
+}
+.lh-90{
+    line-height: 90px;
+}
+$title:#F2655A;
+$head_content:#fff;
+
+.cl1{
+    color: $title;
+}
+.cl2{
+    color: $head_content;
+}
