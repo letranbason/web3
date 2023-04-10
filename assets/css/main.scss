@@ -6,8 +6,7 @@ body{
     overflow: hidden;
 }
 
-#header_site{
-    background: #263A50;
+.header_site{
     font-size: 14px;
     .logo_site{
         padding: 11px 0;
@@ -71,13 +70,19 @@ body{
     .language{
         margin-left: 50%;
     }
-
 }
+
+.header_color{
+    background: red;
+}
+
+
 
 #fullpage{
     .section{
         display: table;
-        height: 100vh;
+        height: 100vh;}
+        #section-1{
         .banner_site{
             &::before{
                 position: absolute;

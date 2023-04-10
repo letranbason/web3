@@ -84,14 +84,13 @@ body {
   overflow: hidden;
 }
 
-#header_site {
-  background: #263A50;
+.header_site {
   font-size: 14px;
 }
-#header_site .logo_site {
+.header_site .logo_site {
   padding: 11px 0;
 }
-#header_site .menu_site {
+.header_site .menu_site {
   display: flex;
   list-style: none;
   -moz-column-gap: 50px;
@@ -100,14 +99,14 @@ body {
   justify-content: end;
   margin-bottom: 0;
 }
-#header_site .menu_site li .menu .main {
+.header_site .menu_site li .menu .main {
   padding-left: 48px;
   position: relative;
   color: #fff;
   margin-left: 20%;
   margin-top: 20%;
 }
-#header_site .menu_site li .menu .main::before {
+.header_site .menu_site li .menu .main::before {
   position: absolute;
   content: "";
   width: 36px;
@@ -122,34 +121,38 @@ body {
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
 }
-#header_site .menu_site li a {
+.header_site .menu_site li a {
   color: #fff;
   font-size: 14px;
   display: block;
   padding: 8px 12px;
   font-weight: 500;
 }
-#header_site .menu_site li a:link {
+.header_site .menu_site li a:link {
   text-decoration: none;
 }
-#header_site .menu_site li a:visited {
+.header_site .menu_site li a:visited {
   text-decoration: none;
 }
-#header_site .menu_site li a:hover {
+.header_site .menu_site li a:hover {
   text-decoration: underline;
 }
-#header_site .menu_site li a:active {
+.header_site .menu_site li a:active {
   text-decoration: underline;
 }
-#header_site .language {
+.header_site .language {
   margin-left: 50%;
+}
+
+.header_color {
+  background: red;
 }
 
 #fullpage .section {
   display: table;
   height: 100vh;
 }
-#fullpage .section .banner_site::before {
+#fullpage #section-1 .banner_site::before {
   position: absolute;
   content: "";
   width: 100%;
@@ -160,33 +163,33 @@ body {
   z-index: 1;
   transform: translate(0, 180px);
 }
-#fullpage .section .banner_site video {
+#fullpage #section-1 .banner_site video {
   width: 100%;
   position: absolute;
   background-size: cover;
 }
-#fullpage .section .banner_site .banner {
+#fullpage #section-1 .banner_site .banner {
   bottom: 0;
   left: 0;
   position: absolute;
   width: 100%;
   z-index: 11;
 }
-#fullpage .section .banner_site .banner .title h1 {
+#fullpage #section-1 .banner_site .banner .title h1 {
   color: #fff;
   width: 89%;
 }
-#fullpage .section .banner_site .banner .title a {
+#fullpage #section-1 .banner_site .banner .title a {
   display: flex;
   gap: 1rem;
 }
-#fullpage .section .banner_site .banner .title a h3 {
+#fullpage #section-1 .banner_site .banner .title a h3 {
   color: #fff;
   text-decoration: underline;
   top: 0;
   transform: translate(0%, 25%);
 }
-#fullpage .section .banner_site .banner h2 {
+#fullpage #section-1 .banner_site .banner h2 {
   color: #fff;
   width: 90%;
   z-index: 1;
