@@ -73,7 +73,7 @@ body{
 }
 
 .header_color{
-    background: red;
+    background: #263A50;
 }
 
 
@@ -631,4 +631,32 @@ body{
             }
         }
     }
+}
+.back{
+    width: 50px;
+    z-index: 10;
+    position: fixed;
+    bottom: 25px;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease;
+}
+
+.back.back-top-scroll {
+  opacity: 1;
+  visibility: visible;
+  bottom: 45px;
+  animation: goTop 2s ease 0s infinite;
+  -webkit-animation: goTop 2s ease 0s infinite;
+}
+
+.back:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #ced4da;
 }
