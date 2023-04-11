@@ -463,13 +463,19 @@ body{
                             gap: 4rem;
                         }
                         .nav-tabs{
+                            
                             border-bottom: #F2655A;
+                            
                             .nav-link{
-                                color: #F2655A;
                                 border-radius: 20px;
                                 background-color: #263A50;
                                 border: 1px solid #F2655A;
                             }
+                        }
+                        .active {
+                                color: #fff;
+                                background-color: var(--bs-nav-tabs-link-active-bg);
+                                border-color: var(--bs-nav-tabs-link-active-border-color);
                         }
                     }
                 }
@@ -659,4 +665,25 @@ body{
   outline: none;
   box-shadow: none;
   border-color: #ced4da;
+}
+
+.phone-contact{
+    position: fixed;
+    top: 10%;
+    right: 15px;
+    background-color: #F2655A;
+    padding: 10px 5px;
+    border-radius: 30px;
+    display: flex;
+    writing-mode: vertical-rl;
+    cursor: pointer;
+    text-decoration: none;
+    p{
+        margin: 0 auto 10px;
+        color: #fff;
+    }
+    img{
+        width: 25px;
+        height: auto;
+    }
 }

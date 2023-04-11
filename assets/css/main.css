@@ -478,10 +478,14 @@ body {
   border-bottom: #F2655A;
 }
 #fullpage #section-7 .infor_site .right .info .region .nav-tabs .nav-link {
-  color: #F2655A;
   border-radius: 20px;
   background-color: #263A50;
   border: 1px solid #F2655A;
+}
+#fullpage #section-7 .infor_site .right .info .region .active {
+  color: #fff;
+  background-color: var(--bs-nav-tabs-link-active-bg);
+  border-color: var(--bs-nav-tabs-link-active-border-color);
 }
 #fullpage #section-7 .infor_site .moreinfo {
   display: flex;
@@ -658,4 +662,25 @@ body {
   outline: none;
   box-shadow: none;
   border-color: #ced4da;
+}
+
+.phone-contact {
+  position: fixed;
+  top: 10%;
+  right: 15px;
+  background-color: #F2655A;
+  padding: 10px 5px;
+  border-radius: 30px;
+  display: flex;
+  writing-mode: vertical-rl;
+  cursor: pointer;
+  text-decoration: none;
+}
+.phone-contact p {
+  margin: 0 auto 10px;
+  color: #fff;
+}
+.phone-contact img {
+  width: 25px;
+  height: auto;
 }/*# sourceMappingURL=main.css.map */
